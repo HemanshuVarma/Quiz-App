@@ -31,6 +31,7 @@
         android:layout_marginTop="@dimen/margin_8"
         android:paddingLeft="@dimen/padding_16"
         android:text="@string/que5_op1"
+        android:background="@color/gray_50"
         android:foreground="?android:attr/selectableItemBackground"/>
 
     <CheckBox
@@ -43,6 +44,7 @@
         android:layout_marginTop="@dimen/margin_8"
         android:paddingLeft="@dimen/padding_16"
         android:text="@string/que5_op2"
+        android:background="@color/gray_50"
         android:foreground="?android:attr/selectableItemBackground"/>
 
     <CheckBox
@@ -55,6 +57,7 @@
         android:layout_marginTop="@dimen/margin_8"
         android:paddingLeft="@dimen/padding_16"
         android:text="@string/que5_op3"
+        android:background="@color/gray_50"
         android:foreground="?android:attr/selectableItemBackground"/>
 
     <CheckBox
@@ -67,6 +70,7 @@
         android:layout_marginTop="@dimen/margin_8"
         android:paddingLeft="@dimen/padding_16"
         android:text="@string/que5_op4"
+        android:background="@color/gray_50"
         android:foreground="?android:attr/selectableItemBackground"/>
 
 
