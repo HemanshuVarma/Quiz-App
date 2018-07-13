@@ -3,7 +3,7 @@
     <string name="reset">Reset</string>
     <string name="score">Score</string>
     <string name="toast">!!Reset Done!!</string>
-    <string name="resultScore">You scored :</string>
+    <string name="resultScore">You scored : \t </string>
     <string name="error">Cannot Evaluate EMPTY Quiz!</string>
     <!--Question 1-->
     <string name="ques_1">Q1. Which is the <b>fastest</b> breed of dog that can run at 44 Miles Per/Hour.</string>

@@ -48,10 +48,10 @@
                 android:layout_marginTop="@dimen/margin_8" />
 
             <include
-                android:layout_marginTop="@dimen/margin_8"
                 layout="@layout/ques_6"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8" />
 
         </LinearLayout>
 
@@ -70,10 +70,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/margin_8"
-        android:layout_marginLeft="@dimen/margin_16"
+        android:layout_marginStart="@dimen/margin_16"
         android:layout_marginTop="@dimen/margin_8"
-        android:text="@string/reset"
-        android:onClick="Reset"/>
+        android:onClick="reset"
+        android:text="@string/reset" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -81,16 +81,17 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/margin_16"
-        android:src="@drawable/dog_32x32"/>
+        android:src="@drawable/dog_32x32" />
 
     <Button
+        android:id="@+id/ScoreButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginBottom="@dimen/margin_8"
-        android:layout_marginRight="@dimen/margin_16"
-        android:text="@string/score"
-        android:onClick="Result"/>
+        android:layout_marginEnd="@dimen/margin_16"
+        android:onClick="submit"
+        android:text="@string/score" />
 
 </RelativeLayout>
