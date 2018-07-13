@@ -5,6 +5,7 @@
     <string name="toast">!!Reset Done!!</string>
     <string name="resultScore">You scored : \t </string>
     <string name="error">Cannot Evaluate EMPTY Quiz!</string>
+    <string name="dogImgDesc">Dog Image 32X32</string>
     <!--Question 1-->
     <string name="ques_1">Q1. Which is the <b>fastest</b> breed of dog that can run at 44 Miles Per/Hour.</string>
     <string name="que1_op1">Rottweiler</string>
